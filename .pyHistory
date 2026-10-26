@@ -1,0 +1,5 @@
+﻿arcpy.Buffer_analysis("majorrds","rdsBuff_500m","500 meters")
+arcpy.Buffer_analysis("majorrds","rdsBuff_500m","500 meters","","","ALL")
+bufferedFeatures = arcpy.Buffer_analysis("majorrds","rdsBuff_500m","500 meters")
+outFC = "V:\\ArcPyDemo1\\Scratch\\clippedBuffers.shp"
+arcpy.Clip_analysis(bufferedFeatures,"elevlt250",outFC)

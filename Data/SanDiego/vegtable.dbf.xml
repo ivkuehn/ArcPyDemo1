@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>SANDAG</origin>
+				<pubdate>1995</pubdate>
+				<title>Vegetation description table</title>
+				<geoform Sync="TRUE">tabular digital data</geoform>
+				<pubinfo>
+				</pubinfo>
+				<onlink>ArcTutor\Geoprocessing\San_Diego\vegtable.dbf</onlink>
+				<ftname Sync="TRUE">vegtable</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This table contains information describing the vegetation communities that can be found in the study area (7.5 minute quad boundaries of La Mesa, La Jolla, Del Mar and Poway).</abstract>
+			<purpose>This table is intended to be used as part of the Using ArcGIS geoprocessing tools Quick-start tutorial. The tutorial can be found in chapter 2 of "Using ArcGIS geoprocessing tools".</purpose>
+			<supplinf>Vegetation cover for the study area can be mapped by joining this table to the vegetation shapefile (vegtype.shp). The values in the Holland95 column in vegtable.dbf can be matched to the values in the Holland95 column in  vegtype.shp.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1995</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-111.156204</westbc>
+				<eastbc>-109.815017</eastbc>
+				<northbc>45.108275</northbc>
+				<southbc>44.127216</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>Vegetation description</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>San Diego county</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>See the ESRI License Agreement for Disclaimer of Warranties and Limitation on Liabilities with respect to the sample Data contained herein. The sample Data is the intellectual property of the respective data provider(s) and is used herein with permission. Source: SANDAG. The sample Data is redistributable with proper metadata and source attribution notices to the respective data provider(s).
+
+SANDAG disclaimer:
+While the data have been tested for accuracy and are properly functioning, SANDAG disclaims any responsibility for the accuracy or correctness of the data.
+
+THE FOREGOING WARRANTY IS EXCLUSIVE AND IN LIEU OF ALL OTHER WARRANTIES OR MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE AND/OR ANY OTHER TYPE WHETHER EXPRESSED OR IMPLIED.
+
+In no event shall SANDAG become liable to users of these data, or any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. In using these data, users further agree to indemnify, defend, and hold harmless SANDAG for any and all liability of any nature arising out of or resulting from the lack of accuracy or correctness of the data, or the use of the data.
+
+To assist SANDAG in the maintenance of the data, users should provide SANDAG, at the address shown below, information concerning errors or discrepancies found in using the data.
+
+SANDAG
+Attn: GIS Project Manager
+401 "B" Street, Suite 800
+San Diego, CA 92101
+
+gismaster@sandag.org
+
+In using the data, users should be aware that these data are generalized and not parcel based, and were created for use in regional planning projects.
+
+Please acknowledge SANDAG as a source when SANDAG data are used in the preparation of reports, papers, publications, maps, and other products.
+
+To ensure that appropriate documentation and data limitations are provided, these databases should not be redistributed to any other parties.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Environmental Systems Research Institute, Inc. (ESRI)</cntorg>
+					<cntper>ArcGIS Development Team</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>380 New York St.</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>909-793-2853</cntvoice>
+				<cntfax>909-793-5953</cntfax>
+				<cntemail>info@esri.com</cntemail>
+				<hours>8:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.213</native>
+		<natvform Sync="TRUE">dBASE Table</natvform><datacred>SANDAG</datacred></idinfo>
+	<dataqual>
+		<lineage>
+			<procstep>
+				<procdesc>This table was derived from the metadata for 1995 Vegetation provided by SANDAG. 
+http://www.sandag.org/resources/maps_and_gis/gis_downloads/senlu.asp
+The Habitat field was added as an identifier to extract those vegetation types that are suitable as potential habitat sites for the Californian Gnatcatcher.
+
+</procdesc>
+				<procsv>ArcGIS 9</procsv><procdate>2002</procdate></procstep>
+		</lineage>
+	</dataqual>
+	<eainfo>
+		<detailed Name="vegtable">
+			<enttyp>
+				<enttypl Sync="TRUE">vegtable</enttypl>
+				<enttypd>This table contains a vegetation description and a habitat code identifying if a vegetation type is suitable or not.</enttypd>
+				<enttypds>ESRI</enttypds>
+				<enttypt Sync="TRUE">Table</enttypt><enttypc Sync="TRUE">99</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">OID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">OID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">HOLLAND95</attrlabl>
+				<attrdef>A whole number which is a code that identifies a unique type of vegetation.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>67</rdommax>
+						<attrmres>1</attrmres>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">HOLLAND95</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">HABITAT</attrlabl>
+				<attrdef>A code identifying if a polygon is of a suitable vegetation type for the Californian Gnatcatcher. A value of 1 indicates a suitable vegetation type.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Each record in the table has a unique value in this column.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">HABITAT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">VEG_TYPE</attrlabl><attalias Sync="TRUE">VEG_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">44</attwidth><attrdef>A description of the vegetation (Holland95) code.</attrdef></attr></detailed>
+		<overview><dsoverv>This table contains a description of the vegetation, and a habitat code, identifying those vegetation types that would make suitable habitat locations for the Californian Gnatcatcher (1 = suitable, 0 = not suitable).
+It joins to vegtype.shp in order to identify suitable locations.</dsoverv></overview></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Environmental Systems Research Institute, Inc. (ESRI)</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>380 New York St.</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>909-793-2853</cntvoice>
+				<cntfax>909-793-5953</cntfax>
+			</cntinfo>
+		</distrib>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<distliab>See Use Constraints under Identification Information.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname Sync="TRUE">DBF</formname>
+					<filedec>no compression applied</filedec>
+					<transize Sync="TRUE">0.019</transize>
+					<dssize Sync="TRUE">0.019</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>ArcTutor\Geoprocessing\San_Diego\vegtable.dbf</networkr>
+							</networka>
+						</computer>
+						<accinstr>Local Area Network</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<ordering>Using ArcGIS Geoprocessing tools tutorial data is provided with ArcGIS Desktop.</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20030428</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Environmental Systems Research Institute, Inc. (ESRI)</cntorg>
+					<cntper>ArcGIS Development Team</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>380 New York St.</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>909-793-2853</cntvoice>
+				<cntfax>909-793-5953</cntfax>
+				<cntemail>info@esri.com</cntemail>
+				<hours>8:00 a.m.-5:30 p.m. Pacific time, Monday-Friday</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<city>Yellowstone National Park</city>
+	<country>us</country>
+	<city>Yellowstone National Park</city>
+	<country>us</country>
+	<city>Redlands</city>
+	<country>us</country>
+	<city Sync="TRUE">Redlands</city>
+	<country Sync="TRUE">us</country>
+	<city>Redlands</city>
+	<country>us</country>
+	<city>Redlands</city>
+	<country>us</country>
+This table was derived from the habitat.dbf table provided by Yellowstone National Park. Documentation provided by the park did not indicate the origin of the habitat.dbf data, nor what type of habitat was being described. However, it was clear that land cover and vegetation were defined in that table. 
+The landform shapefile provided by the Park (not used in the tutorial) was accompanied by documentation indicating that vertical aerial photography with near-infrared film was taken in late summer of 1982 and 1983. And, that stereo interpretive methods were used to interpret transpiring vegetation, exposed bedrock, and talus. Presumably this is one of the sources for the data in the habitat.dbf table.
+The original table provided by the Park was simplified for use with the ArcCatalog tutorial. Three columns, N12, N13, and N14, were removed because they were empty using ArcView 3.1. Also, the Integer column VegID was added to the table. Values were added to this column by calculating them to equal the values in the original Number column, which also contained Integer values. Then, the Number column was removed; this eliminated any ambiguity that might arise in the tutorial by referring to that column by name. (1999. Source: ynp\meta\habitat.dbf. Product: vegtype.dbf)
+The Primary column was added to the table using ArcView 3.1, then the table was edited. The purpose was to make it easier to illustrate sorting a table by multiple columns. The first species listed in the Name1 column was presumed to be the dominant species for each type of land cover; that species name was copied and pasted from the Name1 column to the Primary column. (1999. Source: vegtype.dbf)
+<Esri><MetaID>{9A5D72B9-C292-45AC-A58B-4153E451D0FE}</MetaID><CreaDate>20021103</CreaDate><CreaTime>17281500</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20030428</SyncDate><SyncTime>11363600</SyncTime><ModDate>20030428</ModDate><ModTime>11363600</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.213</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">vegtable</resTitle><presForm><PresFormCd Sync="TRUE" value="011"></PresFormCd></presForm></idCitation></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\TETLEY\Geoprocessing\san_diego\vegtable.dbf</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.006</transSize></distorTran><distorFormat><formatName Sync="TRUE">dBASE Table</formatName></distorFormat></distributor></distInfo><mdDateSt Sync="TRUE">20030428</mdDateSt></metadata>

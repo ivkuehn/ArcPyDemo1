@@ -1,0 +1,1 @@
+"CLIMATE_ID" = 2 AND "Shape_Area" >= 1089000  OR "Climate_ID" = 3 AND "Shape_Area" >= 2178000
