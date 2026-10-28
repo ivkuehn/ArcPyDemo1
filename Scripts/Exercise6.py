@@ -7,6 +7,6 @@ A = arcpy.GetParameterAsText(2)
 B = arcpy.GetParameterAsText(3)
 
 #Message results back to the status window when run
-arcpy.AddMessage("The class name is {}.".format(className))
-arcpy.AddMessage("The distance is {}.".format(distance))
-arcpy.AddMessage("{} + {} = {}?!".format(A,B,A+B))
+arcpy.AddMessage(f"The class name is {className}.")
+arcpy.AddWarning(f"The distance is {distance}.")
+arcpy.AddError(f"{A} + {B} = {A+B}?!")
