@@ -5,5 +5,8 @@
 import sys
 className = sys.argv[1]
 distance = sys.argv[2]
+print(distance)
 A = sys.argv[3]
 B = sys.argv[4]
+print(int(A)+float(B))
+
